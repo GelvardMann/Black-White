@@ -1,12 +1,16 @@
 body {
-   margin: 0;
+   margin: 0 auto;
    padding: 0;
+   min-width: 350px;
+   width: 100%;
+   font-size: 100%;
 }
 
 html {
    scroll-behavior: smooth;
    font-family: 'Roboto', sans-serif;
    background-color: #fff;
+   width: 100%;
 
 }
 
@@ -22,11 +26,12 @@ h2 {
    font-weight: lighter;
 }
 
-li {
+.nav_menu li {
    list-style: none;
-   font-size: 13px;
+   font-size: 80%;
    padding: 15px 0 0 0;
    box-sizing: border-box;
+   width: 14.285%;
 }
 
 a {
@@ -46,12 +51,14 @@ li a:hover {
 }
 
 nav {
+
 }
 
 .nav_menu {
    display: flex;
    justify-content: space-between;
-   width: 650px;
+
+   width: 50%;
    height: 54px;
    margin: 0 auto 0 auto;
    padding: 0;
