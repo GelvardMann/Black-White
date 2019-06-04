@@ -30,9 +30,12 @@ body {
    justify-content: space-between;
 }
 
+textarea:focus, input:focus{
+outline: none;
+}
 .arrow_up {
    display: block;
-   
+
    box-sizing: border-box;
    text-align: center;
    border: 1px solid grey;
