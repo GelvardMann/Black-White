@@ -11,7 +11,7 @@ html {
    color: #000;
    font-family: lighter 200% 'Muli', sans-serif;
    scroll-behavior: smooth;
-   width: 100%;
+   min-width: 360px;
 }
 
 body {
@@ -24,6 +24,7 @@ body {
 .page {
    box-sizing: border-box;
    min-width: 360px;
+   width: 100%;
    margin: 0 auto;
    display: flex;
    flex-direction: column;
@@ -31,7 +32,6 @@ body {
 }
 
 .arrow_up {
-   content: "Up";
    display: block;
    box-sizing: border-box;
    text-align: center;
@@ -50,6 +50,10 @@ body {
 .arrow_up:hover  {
    opacity: 1;
 
+}
+
+textarea:focus, input:focus{
+outline: none;
 }
 
 a {
@@ -94,10 +98,11 @@ h2{
    order: 2;
 }
 
+
 .nav-menu li {
    text-align: center;
    box-sizing: border-box;
-   margin-right: 5px;
+   margin-right: 7px;
 }
 
 .nav-menu li a {
