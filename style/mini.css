@@ -88,7 +88,7 @@ h2{
 
 .nav-menu {
    display: flex;
-   width: 95%;
+   width: 100%;
    box-sizing: border-box;
    justify-content: space-between;
 }
@@ -98,16 +98,16 @@ h2{
 .nav-menu ul {
    display: flex;
    justify-content: space-between;
-   width: 100%;
+   width: 95%;
    box-sizing: border-box;
-   order: 2;
+   margin: 0 auto;
 }
 
 
 .nav-menu li {
    text-align: center;
    box-sizing: border-box;
-   margin-right: 5px;
+
 }
 
 .nav-menu li a {
@@ -116,7 +116,7 @@ h2{
    text-decoration: none;
    padding-top: 20px;
    font-family: 'Noto Sans HK', sans-serif;
-   font-size: .7em;
+   font-size: .8em;
    font-weight: 100;
 }
 
@@ -127,8 +127,7 @@ h2{
 }
 
 .logo {
-   margin-right: 7px;
-   order: 1;
+
 }
 .logo h1 {
    display: block;
@@ -141,8 +140,6 @@ h2{
    padding-top: 3px;
    font-weight: bold;
    font-size: 2.5em;
-   /*background-image: url(../images/logo_nav.png);
-   background-repeat: no-repeat;*/
 }
 
 .slider {
