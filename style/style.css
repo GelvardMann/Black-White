@@ -134,7 +134,7 @@ h3 {
    padding-top: 3px;
    font-weight: bold;
    font-size: 2.5em;
-   margin: 0 0,6em;
+   margin: 0 5px;
 }
 
 .slider {
@@ -499,6 +499,7 @@ h3 {
    width: 92.7710843373494%;
    padding: 0 3.6144578313253%;
 
+
 }
 
 
@@ -513,6 +514,14 @@ h3 {
    font-size: 1em;
 }
 
+.contact_icons_item a  {
+   font-family: 'Roboto', serif;
+   font-style: normal;
+   font-weight: 300;
+   font-size: 1em;
+   color: grey;
+}
+
 .icon {
    display: block;
    width: 1.5em;
@@ -520,7 +529,7 @@ h3 {
    background-image: url(../images/sprites.png);
    background-repeat: repeat;
    background-position: -66px 0;
-   margin: 0 auto;
+   margin: 0 auto 1em auto;
 }
 
 .some_address {
