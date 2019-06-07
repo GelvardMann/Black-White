@@ -98,15 +98,23 @@ h2{
 .nav-menu ul {
    display: flex;
    justify-content: space-between;
-   width: 95%;
    box-sizing: border-box;
+   flex-wrap: wrap;
+   width: 95%;
    margin: 0 auto;
+
+}
+
+.nav-menu li:nth-child(4) {
+   order: 1;
+   margin: 0 47.66666666666667%;
 }
 
 
 .nav-menu li {
    text-align: center;
    box-sizing: border-box;
+   order: 2;
 
 }
 
@@ -114,10 +122,11 @@ h2{
    display: block;
    color: #000;
    text-decoration: none;
-   padding-top: 20px;
+   padding-top: 1rem;
    font-family: 'Noto Sans HK', sans-serif;
    font-size: .8em;
    font-weight: 100;
+   text-transform: uppercase;
 }
 
 .nav-menu li a:hover {
@@ -126,9 +135,6 @@ h2{
    transition: .2s;
 }
 
-.logo {
-
-}
 .logo h1 {
    display: block;
    width: 55px;
@@ -140,7 +146,6 @@ h2{
    padding-top: 3px;
    font-weight: bold;
    font-size: 2.5em;
-   margin: 0 .5em;
 }
 
 .slider {
